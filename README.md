@@ -1,8 +1,8 @@
 # Splendor-Insurance-Analysis-Project
-![](photo_2024-07-12_14-23-53.jpg)
+![](photo_2024-07-12_14-46-59.jpg)
 ## Introduction
-This project analyzes the customer base of an automobile insurance company with the primary aim of understanding the claim patterns. The goal is to determine whether to adjust the billing plans for some policyholders based on their insurance claims.
-For a detailed explanation of the project, download [here]()
+This project analyzes the customer base of an automobile insurance company with the primary aim of understanding the claim patterns. The goal is to determine whether to adjust the billing plans for some policyholders based on their insurance claims.  
+For a detailed explanation of the dataset, download [here](https://github.com/lawrence-45/Splendor-Insurance-Analysis-Project/blob/main/Splendor_Analytics_Insurance%20Data%20Analysis_Project_Brief.docx)
 
 ## Key Insights To Be Found
 1.	Identify patterns in claim frequencies and amounts.
@@ -11,31 +11,38 @@ For a detailed explanation of the project, download [here]()
 4.	Develop targeted marketing strategies to attract and retain customers.
 
 ## Skills Demonstrated
-1. Data Cleaning(Exel)
+1. Data Cleaning(Excel)
 2. Data Analysis
 3. Data Visualization
 4. Power BI DAX
 
 ## Data Sourcing
-The dataset was obtained from Spendor Analytics on Twitter, to view the dataset click here.
+The dataset was obtained from Spendor Analytics on Twitter, to view the dataset click [here](Insurance_Policies.csv).
 
 ## Data Cleaning
-The dataset was relatively clean with no duplicates, NULL values, or typographical errors. The only modification needed was changing the data format of the car_model column from General to Text, as some car models are numbers (e.g., Mazda 323, where 323 is the model). I also added new columns using Power BI DAX to group values from existing columns. For instance, the age column was categorized into five groups. These changes made the analysis and visualization more comprehensible to external viewers.
+The dataset was relatively clean with no duplicates, NULL values, or typographical errors. The only modification needed was changing the data format of the car model column from General to Text, as some car models are numbers (e.g., Mazda 323, where 323 is the model). I also added new columns using Power BI DAX to group values from existing columns. For instance, the age column was categorized into five groups. These changes made the analysis and visualization more comprehensible to external viewers.
 
 ## Data Analysis
 From the analysis, I gained a comprehensive understanding of the distribution of policyholders and its impact on claims. I was able to identify the policyholders who make the most frequent claims and calculate the total amount that the insurance company has paid out to this group.  
 Additionally, I examined various factors influencing these claims, which provided valuable insights into potential areas for optimizing billing plans and improving overall customer segmentation strategies.
 
 ## Data Visualization
-Using Power BI I was able to visualize my analysis to access the dashboard, click [here]()
+Using Power BI I was able to visualize my analysis, the dashboard consists of 3 pages the first being the summary page, the second being the customer analysis page and the last being the claim analysis page.  
+
+![](Insurance_dashboard_1.jpg)  
+
+![](Insurance_dashboard_2.jpg)  
+
+![](Insurance_dashboard_3.jpg)  
 
 ## Recommendations
+### Considerations for Older Policyholders:
 **Billing Adjustments:** 
 Older policyholders should have their insurance billing carefully evaluated, as they tend to file claims more frequently than younger policyholders.
 
 ### Adjustments for High Claim Frequency Cars:
 **Increased Charges for Certain Car Makes and Models:** 
-Policyholders driving cars such as Ford, Chevrolet, Dodge, and similar brands, which have higher claim frequencies and amounts, should be charged more at registration. Specific models like Grand Prix, Mustang, Corvette, Camaro, Ranger, Town Car, E-Class, etc., should also incur higher charges due to their higher claim rates.
+Policyholders driving cars such as Ford, Chevrolet, Dodge, and similar brands with higher claim frequencies and amounts should be charged more at registration. Specific models like Grand Prix, Mustang, Corvette, Camaro, Ranger, Town Car, E-Class, etc., should incur higher charges due to their higher claim rates.
 
 ### Billing Plans Based on Car Types:
 **New vs. Vintage Cars:** 
