@@ -35,6 +35,7 @@ Using Power BI I was able to visualize my analysis, the dashboard consists of 3 
 
 ![](Insurance_dashboard_3.jpg)  
 
+To view the dashboard, click [here](https://ln.run/W03Ja).
 ## Recommendations
 ### Considerations for Older Policyholders:
 **Billing Adjustments:** 
